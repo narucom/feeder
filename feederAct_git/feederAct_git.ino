@@ -12,16 +12,16 @@ int i =1; // address
 unsigned long pri_Time = 0;
 String priFix = "";
 String moreMsg = "";
-String inputString = "";         // 받은 데이터
-boolean stringComplete = false;  // whether the string is complete  
+String inputString = "";         
+boolean stringComplete = false;  
 boolean runring = false;
 int readHour;
 int readMin;
-int dateTimes[6];   // 0:year, 1:month, 2:day, 3:hour, 4:minute, 5:address
+int dateTimes[6];   
 int saved_hour_addr = 1;  
 int saved_min_addr = 2;
 int addrPossible = 1;
-int addrMax = 10; // 최대 저장 주소값
+int addrMax = 10; 
 
 void setup() {
   servo.attach(9);
